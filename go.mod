@@ -207,3 +207,9 @@ replace (
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.34.2
 	k8s.io/utils => k8s.io/utils v0.0.0-20250604170112-4c0f3b243397
 )
+
+// ODP: build against the acceldata forks of core and scheduler-interface
+replace (
+	github.com/apache/yunikorn-core => github.com/acceldata-io/yunikorn-core v1.8.0-0.0.20260113101644-10f50b2b9b30
+	github.com/apache/yunikorn-scheduler-interface => github.com/acceldata-io/yunikorn-scheduler-interface v1.8.0-0
+)
