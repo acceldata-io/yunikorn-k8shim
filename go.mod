@@ -210,6 +210,6 @@ replace (
 
 // ODP: build against the acceldata forks of core and scheduler-interface
 replace (
-	github.com/apache/yunikorn-core => github.com/acceldata-io/yunikorn-core v1.8.0-0.0.20261016123819-e5c5331167f8
+	github.com/apache/yunikorn-core => github.com/acceldata-io/yunikorn-core v1.8.1-0.20261016160215-61be771eedec
 	github.com/apache/yunikorn-scheduler-interface => github.com/acceldata-io/yunikorn-scheduler-interface v1.8.0-0
 )
